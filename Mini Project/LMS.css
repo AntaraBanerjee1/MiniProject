@@ -1,0 +1,240 @@
+#background {
+    min-height: 1050px;
+    width: 100%;
+
+}
+
+#top {
+    height: 35px;
+    width: 100%;
+    background: #901906;
+    line-height: 35px;
+    padding: 0px 20px 9px 100px;
+    box-sizing: border-box;
+    word-spacing: 10px;
+
+}
+
+#menu {
+    height: 65px;
+    width: 100%;
+    background: green;
+
+}
+
+#logo {
+    height: 65px;
+    width: 40%;
+    background: white;
+    text-align: center;
+    line-height: 65px;
+    font-size: 40px;
+    float: left;
+}
+
+#menu1 {
+    height: 65px;
+    width: 60%;
+    background: white;
+    float: left;
+
+}
+
+#menu1 UL {
+    list-style: none;
+    padding-left: 100px;
+    box-sizing: border-box;
+    
+
+}
+
+#menu1 .HOME {
+    background-color:rgb(68, 227, 118);
+    padding: 10px;
+}
+
+#menu1 .Gallery{
+    background-color: #075b54;
+    padding: 10px;
+   
+}
+
+#menu1 .Admin {
+    background-color: #ffb300;
+    padding: 10px;
+   
+}
+
+#menu1 .Register{
+    background-color: #0a670f;
+    padding: 10px;
+}
+
+#menu1 .Login{
+    background-color: #d4ac1c;
+    padding: 10px;
+   
+}
+
+#menu1 LI {
+    height: 60px;
+    width: 130px;
+
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+    transform: translateY(-5px);
+    color:white;
+    font-size: 20px;
+
+}
+#slider p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+#menu1 LI:hover {
+    background: #e4129b;
+    color: white;
+    transition: all ease 1s;
+    border-radius: 12px;
+}
+
+#slider {
+    height: 640px;
+    width: 100%;
+    background: url("https://mcdn.wallpapersafari.com/medium/84/98/HEidj1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    /* animation-name:slider;
+    animation-duration: 20s;
+    animation-iteration-count:infinite ;
+   animation-delay: 3s;*/
+}
+
+/*
+@keyframes slider{
+   
+    from{
+        background:url(image/4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    to{
+        background:url(image/4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    } 
+}
+*/
+#x {
+    height: 640px;
+    width: 40%;
+    background: rgba(6, 2, 57, 0.4);
+    float: left;
+    font-size: 41PX;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+#wel{
+    color:white;
+    background-color:rgb(122, 8, 8);
+    font-size: 35px;
+    border:none;
+    border-radius: 10px;
+} 
+#zone{
+    color:#a01877;
+    background-color: white;
+    font-size: 35px;
+    border:none;
+    border-radius: 10px;
+
+}
+#y {
+    height: 640px;
+    width: 30%;
+    background: rgba(0, 0, 0, .4);
+    float: left;
+
+
+}
+
+#z {
+    height: 640px;
+    width: 30%;
+    background: rgba(0, 0, 0, .4);
+    float: left;
+}
+
+#l {
+    height: 450px;
+    width: 80%;
+    background: rgba(255, 255, 255, .6);
+    float: left;
+    margin: 90px;
+    border-radius: 7px;
+
+}
+
+#l:hover {
+    background: linear-gradient(45deg, rgba(50, 177, 40, .6), rgba(255, 255, 255, .6));
+}
+
+#r {
+    height: 450px;
+    width: 80%;
+    background: #a01877;
+    float: left;
+    margin: 90px auto;
+    border-radius: 7px;
+
+}
+
+#r:hover {
+    background: linear-gradient(45deg, rgba(50, 177, 40, .6), rgba(255, 255, 255, .6));
+}
+
+#student {
+    margin: 50px 50px;
+    color: #a01877
+
+}
+
+#Teacher {
+    margin: 50px 50px;
+    color: white;
+}
+
+.t {
+    height: 40px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+
+}
+
+#down {
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    background: #901906;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300px;
+    padding-top: 5px;
+    color: white;
+}
+
+.footer {
+    height: 20px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
